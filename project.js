@@ -48,9 +48,9 @@ export class Project extends Scene {
                 texture: new Texture("assets/road.png", "NEAREST")
             }),
             player: new Material(new Textured_Phong(), {
-                color: hex_color("#3c4893"),
+                color: hex_color("#000000"),
                 ambient: 1, diffusivity: 0.1, specularity: 0.1,
-                texture: new Texture("assets/blue.png", "NEAREST")
+                texture: new Texture("assets/vahan.jpg", "NEAREST")
             }),
         };
 
